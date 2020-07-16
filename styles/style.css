@@ -370,7 +370,9 @@ h1 {
 .second-page,
 .third-page,
 .fourth-page,
-#first,#second,#third {
+#first,
+#second,
+#third {
     height: 85%;
     overflow: hidden;
 }
@@ -551,6 +553,8 @@ h1 {
 ==================================== */
 
 @media (max-width: 769px) {
+
+
     * {
         box-sizing: border-box;
         font-family: 'Avenir Next', 'Helvetica', sans-serif;
@@ -601,8 +605,11 @@ h1 {
     .first-page,
     .second-page,
     .third-page,
-    .fourth-page {
-        height: 87.120879vh;
+    .fourth-page,
+    #first,
+    #second,
+    #third {
+        height: 75%;
         overflow: hidden;
     }
 
@@ -618,10 +625,7 @@ h1 {
     }
 
 
-    #parent {
-
-
-    }
+    #parent {}
 
     #first {
         height: 736px;
