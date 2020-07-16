@@ -247,7 +247,7 @@ h1 {
 
 .greeting {
     position: absolute;
-    font-size: 4em;
+    font-size: 3em;
 
 }
 
@@ -268,7 +268,7 @@ h1 {
 
 .greeting h1:nth-child(1) {
     background: black;
-
+    font-size: 3em;
     letter-spacing: .15em;
     margin-top: 0.4em;
     padding: 50px;
@@ -310,7 +310,7 @@ h1 {
     font-size: 3em;
     color: rgb(51, 141, 47);
     position: fixed;
-    margin-top: 33.6rem;
+    margin-top: 28.6rem;
     background: black;
     height: 5rem;
 
@@ -369,8 +369,10 @@ h1 {
 .first-page,
 .second-page,
 .third-page,
-.fourth-page {
-    height: 87.120879vh;
+.fourth-page,
+#first,#second,#third {
+    height: 85%;
+    overflow: hidden;
 }
 
 
@@ -443,7 +445,7 @@ h1 {
     /* height: 43vh; */
     background: #fffffff0;
     margin: auto;
-    padding: 154px;
+    padding: 10em 3em;
     box-shadow: 0 2px 5px -2px rgb(0 0 0);
     border-radius: 15px;
     position: relative;
@@ -458,21 +460,21 @@ h1 {
     z-index: 10;
     width: 100%;
     position: absolute;
-    bottom: -0.4rem;
+    bottom: -4.4rem;
 }
 
 .description {
-    grid-column: 7 / 14;
-    grid-row: 1 / 11;
-    bottom: 7rem;
+    grid-column: 7 / 13;
     position: absolute;
-    z-index: 11;
-    padding: 3rem 3rem;
+    z-index: 10;
+    padding: 3rem;
     box-shadow: rgba(0, 0, 32, 0.27) 10px 10px 90px;
-    width: 100%;
+    width: auto;
     background-color: #fff;
     text-align: center;
-    font-size: 1.6em;
+    font-size: 1.3em;
+    border-radius: 15px;
+    margin: inherit;
 }
 
 
@@ -522,11 +524,11 @@ h1 {
 
 @keyframes animated-text {
     from {
-        width: 1.875rem;
+        width: 1.275rem;
     }
 
     to {
-        width: 33.2rem;
+        width: 25.2rem;
     }
 }
 
@@ -573,7 +575,7 @@ h1 {
 
     .greeting {
         position: absolute;
-        font-size: 4em;
+        font-size: 4vw;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -617,7 +619,7 @@ h1 {
 
 
     #parent {
-        margin-top: 10.4em;
+
 
     }
 
@@ -629,12 +631,6 @@ h1 {
     #first>div:nth-child(1) {
         height: 736px;
         position: relative;
-    }
-  
-
-    .wrapper {
-        padding-left: 1.5em;
-        padding-right: 1.5em;
     }
 
     .logo {
