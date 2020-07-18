@@ -310,6 +310,7 @@ h1 {
     background: black;
     position: absolute;
     padding: 0.3em;
+    letter-spacing: 6.1px;
 
 }
 
@@ -658,6 +659,7 @@ h1 {
         font-size: 1.2em;
         margin-top: -0.1rem;
         padding: 0em;
+        letter-spacing: 0px;
     }
 
     @keyframes animated-text {
@@ -666,7 +668,7 @@ h1 {
         }
 
         to {
-            width: 29.2rem;
+            width: 100%;
         }
     }
 
