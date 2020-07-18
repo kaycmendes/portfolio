@@ -256,9 +256,6 @@ h1 {
 }
 
 
-#typing-2 {
-    border-radius: 0px 0px 15px 15px;
-}
 
 #typing,
 #typing-2 {
@@ -307,14 +304,24 @@ h1 {
     white-space: nowrap;
     overflow: hidden;
     font-family: 'VT323', monospace;
-    font-size: 3em;
+    font-size: 1em;
     color: rgb(51, 141, 47);
-    position: fixed;
-    margin-top: 28.6rem;
+    margin-top: 0rem;
     background: black;
-    height: 5rem;
+    position: absolute;
+    padding: 0.3em;
 
 }
+
+.parent-box {
+    height: 1rem;
+    width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
 
 
 
@@ -526,11 +533,11 @@ h1 {
 
 @keyframes animated-text {
     from {
-        width: 1.275rem;
+        width: 2.575rem;
     }
 
     to {
-        width: 25.2rem;
+        width: 34.2rem;
     }
 }
 
@@ -583,7 +590,6 @@ h1 {
         width: 100%;
         display: flex;
         flex-direction: column;
-        overflow: hidden;
     }
 
     header {
@@ -609,23 +615,10 @@ h1 {
     #first,
     #second,
     #third {
-        height: 80%;
+        height: 85%;
         overflow: hidden;
     }
 
-    @keyframes animated-text {
-        from {
-            width: 1.838rem;
-        }
-
-        to {
-            width: 25.138rem;
-        }
-
-    }
-
-
-    #parent {}
 
     #first {
         height: 736px;
@@ -651,6 +644,29 @@ h1 {
 
     .greeting h1:nth-child(1) {
         margin-top: 0;
+    }
+
+    .greeting h1:nth-child(1) {
+        letter-spacing: 0em;
+    }
+
+    .greeting{
+        font-size: 8vw;
+    }
+    #parent {
+        font-size: 3.4em;
+        margin-top: -0.1rem;
+        padding: 0em;
+    }
+    
+    @keyframes animated-text {
+        from {
+            width: 1.275rem;
+        }
+    
+        to {
+            width: 29.2rem;
+        }
     }
 
 

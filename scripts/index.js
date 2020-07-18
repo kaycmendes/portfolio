@@ -4,7 +4,7 @@ new fullpage('#fullpage', {
     scrollHorizontally: true,
     navigation: true,
     responsiveWidth: '100%',
-    responsiveHeight: '650px',
+    responsiveHeight: '100%',
     sectionsColor: [''],
     lockAnchors: false,
     anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
