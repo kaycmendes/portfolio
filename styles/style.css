@@ -477,14 +477,14 @@ h1 {
     grid-column: 7 / 13;
     position: absolute;
     z-index: 10;
-    padding: 3rem;
+    padding: 3vw;
     box-shadow: rgba(0, 0, 32, 0.27) 10px 10px 90px;
     width: auto;
     background-color: #fff;
     text-align: center;
     font-size: 1.3em;
     border-radius: 15px;
-    margin: inherit;
+    margin: 0em 1em;
 }
 
 
@@ -678,7 +678,8 @@ h1 {
 
     .description {
         grid-column: 1 / 16;
-        padding: 1rem;
+        padding-left: 2rem;
+        margin: 0em 1em;
         font-size: 1em;
     }
 
@@ -687,15 +688,23 @@ h1 {
         float: right;
         margin: auto;
     }
-    
-    .image{
+
+    .image {
         grid-column: 1 / 14;
     }
 
-    #main-link{
+    #main-link {
         display: none;
     }
 
+    .card {
+        width: auto;
+        padding: 10em 13em 6em 15em;
+        margin-left: auto;
+    }
 
-
+    .third-page {
+        font-size: 0.4em;
+        flex-direction: column;
+    }
 }
