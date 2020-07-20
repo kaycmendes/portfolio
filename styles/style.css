@@ -160,7 +160,7 @@ h1 {
 }
 
 .menu-nav li a h4:nth-child(3) {
-    margin-left: 58px;
+    margin-left: 7em;
     width: auto;
 }
 
@@ -606,8 +606,17 @@ button {
 
 .blogNewPost{
   float: left;
-  width: 85%;
+  width: 31%;
 }
+
+.icon {
+    position: absolute;
+    float: left;
+    display: flex;
+    width: 1.1em;
+    left: 1em;
+   }
+   
 
 
 
@@ -763,4 +772,8 @@ button {
         font-size: 0.4em;
         flex-direction: column;
     }
+    .blogNewPost{
+        float: left;
+        width: 85%;
+      }
 }
