@@ -576,7 +576,7 @@ input, textarea {
     border-radius: 5px;
     border: 1px solid #cdcfcf;
     margin-top:5px;
-    padding: 20px;
+    padding: 10px;
     color: #333;
     background-color: #f6f8f8;
 }
@@ -599,46 +599,16 @@ button {
   margin-top: 15px;
 }
 
-.blogPage-title{
+.form-title{
   text-transform: uppercase;
-  letter-spacing: 2px;
 
-}
-
-#blogTitlePreview{
-  font-family: serif;
-  font-size: 40px
-}
-
-#blogContentPreview{
-  line-height: 25px;
-  color: #666;
-  font-family: serif;
-  font-size: 18px;
-}
-
-#flashMessage {
-    color: white;
-    background-color: #64ce83;
-    padding: 15px;
-    border-radius: 5px;
-    display: block;
-    width: calc(100% - 100px);
-    margin-bottom: 40px;
 }
 
 .blogNewPost{
   float: left;
-  width: 30%;
+  width: 85%;
 }
 
-.blogPreviewArea{
-  float: left;
-  width: 40%;
-  margin-top: -10px;
-  margin-left: 100px;
-  min-height: 400px;
-}
 
 
 
