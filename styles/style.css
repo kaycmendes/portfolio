@@ -628,6 +628,11 @@ button {
     fill: white;
 }
 
+.arrow{
+    display: none;
+}
+  
+
 
 
 /* =================================
@@ -792,4 +797,22 @@ button {
         border-bottom: none;
         box-shadow: none;
       }
+
+      .arrow {
+        color: #af5bc1;
+        position: sticky;
+        bottom: -17rem;
+        margin: 17rem auto;
+        display: flex;
+      }
+  
+  
+  
+  svg.icon:nth-child(1){
+    position: none;
+    float: none;
+    width: 1.1em;
+    left: none;
+  }
+  
 }
