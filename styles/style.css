@@ -508,7 +508,7 @@ h1 {
 .skill-list {
     font-size: 2.5em;
     width: auto;
-    box-shadow: #7f9effab -0.2em 0em;
+    box-shadow: #7f9effab -3px 0em;
     text-align: center;
     left: 0;
     right: 0;
@@ -655,6 +655,7 @@ button {
     .first-page {
         background-color: rgb(107, 183, 122);
         background-repeat: inherit;
+       
     }
 
     .intro {
