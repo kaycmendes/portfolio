@@ -779,7 +779,7 @@ button {
 
     .third-page {
         font-size: 0.4em;
-        box-shadow: #7f9eff 1.9em 1 .9em 0em;
+        box-shadow: #7f9eff 1.9em 1.9em 0em;
         flex-direction: column;
     }
     .form{
@@ -788,8 +788,8 @@ button {
       }
 
       .skill-list{
-        border-top: 5px solid #88a5ff7a;
-        border-bottom: 5px solid #88a5ff7a;
+        border-top: none;
+        border-bottom: none;
         box-shadow: none;
       }
 }
