@@ -508,12 +508,16 @@ h1 {
 .skill-list {
     font-size: 2.5em;
     width: auto;
-
+    box-shadow: #7f9effab -0.2em 0em;
     text-align: center;
     left: 0;
     right: 0;
     top: 2em;
 }
+
+ div.skill-list li:hover{
+    background: #a6bdfd2e;
+ }
 
 
 #svg-second-page {
@@ -621,7 +625,7 @@ button {
    .fp-viewing-fourthPage .menu-nav > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1) > svg:nth-child(2) > circle:nth-child(2)
 {
     transition: ease-in 12s;
-    fill: black;
+    fill: white;
 }
 
 
@@ -775,10 +779,17 @@ button {
 
     .third-page {
         font-size: 0.4em;
+        box-shadow: #7f9eff 1.9em 1 .9em 0em;
         flex-direction: column;
     }
     .form{
         float: left;
         width: 85%;
+      }
+
+      .skill-list{
+        border-top: 5px solid #88a5ff7a;
+        border-bottom: 5px solid #88a5ff7a;
+        box-shadow: none;
       }
 }
