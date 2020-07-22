@@ -556,26 +556,27 @@ h1 {
 
 
 
-p.menu  {
+p.menu {
     text-align: right;
 }
 
 
 
-label{
-  margin-top: 30px;
-  display: block;
-  text-transform: uppercase;
-  color: #333;
-  letter-spacing: 2px;
+label {
+    margin-top: 30px;
+    display: block;
+    text-transform: uppercase;
+    color: #333;
+    letter-spacing: 2px;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     font-size: 18px;
     border-radius: 5px;
     border: 1px solid #cdcfcf;
-    margin-top:5px;
+    margin-top: 5px;
     padding: 10px;
     color: #333;
     background-color: #f6f8f8;
@@ -586,27 +587,27 @@ textarea {
 }
 
 button {
-  background: #6388a4;
-  border: none;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 15px;
-  padding: 15px 30px;
-  cursor: pointer;
-  text-shadow: none;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 15px;
+    background: #6388a4;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px 30px;
+    cursor: pointer;
+    text-shadow: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 15px;
 }
 
-.form-title{
-  text-transform: uppercase;
+.form-title {
+    text-transform: uppercase;
 
 }
 
-.form{
-  float: left;
-  width: 31%;
+.form {
+    float: left;
+    width: 31%;
 }
 
 .icon {
@@ -615,20 +616,19 @@ button {
     display: flex;
     width: 1.1em;
     left: 1em;
-   }
+}
 
-   .fp-viewing-secondPage li.active > a:nth-child(1) > svg:nth-child(2) > circle:nth-child(2),
-   .fp-viewing-thirdPage .menu-nav > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1) > svg:nth-child(2) > circle:nth-child(2),
-   .fp-viewing-fourthPage .menu-nav > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1) > svg:nth-child(2) > circle:nth-child(2)
-{
+.fp-viewing-secondPage li.active>a:nth-child(1)>svg:nth-child(2)>circle:nth-child(2),
+.fp-viewing-thirdPage .menu-nav>ul:nth-child(1)>li:nth-child(3)>a:nth-child(1)>svg:nth-child(2)>circle:nth-child(2),
+.fp-viewing-fourthPage .menu-nav>ul:nth-child(1)>li:nth-child(4)>a:nth-child(1)>svg:nth-child(2)>circle:nth-child(2) {
     transition: ease-in 12s;
     fill: white;
 }
 
-.arrow{
+.arrow {
     display: none;
 }
-  
+
 
 
 
@@ -652,7 +652,7 @@ button {
     .first-page {
         background-color: rgb(107, 183, 122);
         background-repeat: inherit;
-       
+
     }
 
     .intro {
@@ -662,11 +662,13 @@ button {
     }
 
     .greeting {
+        height: 85%;
         position: absolute;
         font-size: 4vw;
         width: 100%;
         display: flex;
         flex-direction: column;
+        overflow: hidden;
     }
 
     header {
@@ -733,7 +735,6 @@ button {
 
     #parent {
         font-size: 1.2em;
-        margin-top: -0.1rem;
         padding: 0em;
         letter-spacing: 0px;
     }
@@ -785,32 +786,38 @@ button {
         box-shadow: #7f9eff 1.9em 1.9em 0em;
         flex-direction: column;
     }
-    .form{
+
+    .form {
         float: left;
         width: 85%;
-      }
+    }
 
-      .skill-list{
+    .skill-list {
         border-top: none;
         border-bottom: none;
         box-shadow: none;
-      }
+    }
 
-      .arrow {
+    .arrow {
         color: #af5bc1;
-        position: sticky;
-        bottom: -17rem;
-        margin: 17rem auto;
+        position: relative;
+        margin: auto;
         display: flex;
-      }
-  
-  
-  
-  svg.icon:nth-child(1){
-    position: none;
-    float: none;
-    width: 1.1em;
-    left: none;
-  }
-  
+        text-align: center;
+        bottom: 1em;
+    }
+
+
+
+    svg.icon:nth-child(1) {
+        position: none;
+        float: none;
+        width: 1.1em;
+        left: none;
+    }
+
+    .parent-box{
+        height: 11em;
+    }
+
 }
