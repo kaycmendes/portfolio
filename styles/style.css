@@ -576,10 +576,15 @@ textarea {
     font-size: 18px;
     border-radius: 5px;
     border: 1px solid #cdcfcf;
+    box-shadow: aquamarine 0.4em 0.4em 0em;
     margin-top: 5px;
     padding: 10px;
     color: #333;
     background-color: #f6f8f8;
+}
+
+*:focus{
+    outline: none;
 }
 
 textarea {
@@ -602,6 +607,7 @@ button {
 
 .form-title {
     text-transform: uppercase;
+    margin-top: 1em;
 
 }
 
