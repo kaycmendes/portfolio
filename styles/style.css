@@ -365,7 +365,7 @@ h1 {
     justify-content: center;
     width: 100%;
     /* background-color: rgb(107, 183, 122); */
-    background: url(/images/sunset.jpg);
+    background: url(/images/sunset.min.jpg);
     background-repeat: round;
     box-shadow: #7f9eff 0.9em 1em 0em;
 }
