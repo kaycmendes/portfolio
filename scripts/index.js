@@ -2,13 +2,13 @@ new fullpage('#fullpage', {
     //options here
     autoScrolling: true,
     scrollHorizontally: true,
-    navigation: true,
-    responsiveWidth: '100%',
-    responsiveHeight: '100%',
+    navigation: false,
+    controlArrows: false,
     sectionsColor: [''],
     lockAnchors: false,
-    anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
+    anchors: ['firstPage', 'secondPage', 'thirdPage', 'slidePage','fourthPage'],
     fitToSection: false,
+    slidesNavigation: true
 });
 
 //methods

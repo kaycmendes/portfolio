@@ -22,6 +22,7 @@
 .fp-viewing-secondPage,
 .fp-viewing-thirdPage,
 .fp-viewing-fourthPage,
+.fp-viewing-slidePage,
 .fp-viewing-2,
 .fp-viewing-3 {
     margin: 0;
@@ -375,12 +376,17 @@ h1 {
 .first-page,
 .second-page,
 .third-page,
+.slide-page,
 .fourth-page,
 #first,
 #second,
-#third {
+#third,
+#slide,
+#fourth {
     height: 85%;
+
 }
+
 
 
 /* second page style */
@@ -409,6 +415,29 @@ h1 {
     display: flex;
     box-shadow: #7f9eff 0.9em 0.9em 0em;
 }
+
+
+.slide-page {
+    background-color: #8991ca;
+    background-color: #8991ca;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23ffffff' fill-opacity='0.18'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    box-shadow: aquamarine 0.9em 0.9em 0em;
+    overflow: hidden;
+}
+
+.fp-slides {
+    height: 85%;
+    box-shadow: #7f9eff 0.9em 0.9em 0em;
+  }
+
+  #fp-nav ul,
+.fp-slidesNav ul {
+  margin: 0;
+  padding: 0;
+  top: -9em;
+  position: absolute;
+}
+  
 
 .fourth-page {
     display: flex;
@@ -453,7 +482,7 @@ h1 {
     /* height: 43vh; */
     background: #fffffff0;
     margin: auto;
-    padding: 10em 3em;
+    padding: 9em 3em;
     box-shadow: 0 2px 5px -2px rgb(0 0 0);
     border-radius: 15px;
     position: relative;
@@ -506,7 +535,7 @@ h1 {
 }
 
 .skill-list {
-    font-size: 2.5em;
+    font-size: 1.8em;
     width: auto;
     /* box-shadow: #80f9d1 -3px 0em; */
     text-align: center;
@@ -583,7 +612,7 @@ textarea {
     background-color: #f6f8f8;
 }
 
-*:focus{
+*:focus {
     outline: none;
 }
 
@@ -822,8 +851,10 @@ button {
         left: none;
     }
 
-    .parent-box{
+    .parent-box {
         height: 11em;
     }
+
+
 
 }
