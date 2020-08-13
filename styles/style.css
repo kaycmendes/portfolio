@@ -35,7 +35,7 @@
 
 
 header {
-    height: 4.5rem;
+    height: 4.1rem;
     padding: 0;
     margin: 0;
     left: 0;
@@ -428,16 +428,16 @@ h1 {
 .fp-slides {
     height: 85%;
     box-shadow: #7f9eff 0.9em 0.9em 0em;
-  }
-
-  #fp-nav ul,
-.fp-slidesNav ul {
-  margin: 0;
-  padding: 0;
-  top: -9em;
-  position: absolute;
 }
-  
+
+#fp-nav ul,
+.fp-slidesNav ul {
+    margin: 0;
+    padding: 0;
+    top: -9em;
+    position: absolute;
+}
+
 
 .fourth-page {
     display: flex;
@@ -655,7 +655,8 @@ button {
 
 .fp-viewing-secondPage li.active>a:nth-child(1)>svg:nth-child(2)>circle:nth-child(2),
 .fp-viewing-thirdPage .menu-nav>ul:nth-child(1)>li:nth-child(3)>a:nth-child(1)>svg:nth-child(2)>circle:nth-child(2),
-.fp-viewing-fourthPage .menu-nav>ul:nth-child(1)>li:nth-child(4)>a:nth-child(1)>svg:nth-child(2)>circle:nth-child(2) {
+.fp-viewing-fourthPage .menu-nav>ul:nth-child(1)>li:nth-child(5)>a:nth-child(1)>svg:nth-child(2)>circle:nth-child(2),
+.fp-viewing-slidePage-0 .menu-nav>ul:nth-child(1)>li:nth-child(4)>a:nth-child(1)>svg:nth-child(2)>circle:nth-child(2)  {
     transition: ease-in 12s;
     fill: white;
 }
