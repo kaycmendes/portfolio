@@ -35,7 +35,7 @@
 
 
 header {
-    height: 4.1rem;
+    height: 4.4rem;     
     padding: 0;
     margin: 0;
     left: 0;
@@ -558,6 +558,55 @@ h1 {
 
 
 
+.bump-up-element {
+    animation: bump-up 0.75s;
+}
+
+.project {
+    height: 120vh;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+    align-items: center;
+    margin-bottom: 0;
+
+}
+
+.project-image {
+    grid-column: 2 / 13;
+    grid-row: 1 / 10;
+    z-index: 0;
+    border-radius: 15px;
+}
+
+.project-description {
+    grid-column: 11 / 15;
+    border-radius: 15px;
+    grid-row: 1 / 11;
+    background: rgb(253, 253, 255);
+    z-index: 1;
+    padding: 2rem 2rem;
+    box-shadow: rgba(0, 0, 32, 0.8) 10px 10px 90px -30px;
+}
+
+.project-image img,
+.project-description {
+    width: 100%;
+    border-radius: 15px;
+}
+
+project-image img {
+    height: 80vh;
+    object-fit: cover;
+    box-shadow: rgba(253, 253, 255, 0.8) 10px 10px 90px -30px;
+}
+
+.project-image img,
+.project-description {
+    width: 100%;
+}
+
+
 
 /* text animation */
 
@@ -656,9 +705,19 @@ button {
 .fp-viewing-secondPage li.active>a:nth-child(1)>svg:nth-child(2)>circle:nth-child(2),
 .fp-viewing-thirdPage .menu-nav>ul:nth-child(1)>li:nth-child(3)>a:nth-child(1)>svg:nth-child(2)>circle:nth-child(2),
 .fp-viewing-fourthPage .menu-nav>ul:nth-child(1)>li:nth-child(5)>a:nth-child(1)>svg:nth-child(2)>circle:nth-child(2),
-.fp-viewing-slidePage-0 .menu-nav>ul:nth-child(1)>li:nth-child(4)>a:nth-child(1)>svg:nth-child(2)>circle:nth-child(2)  {
+.fp-viewing-slidePage-0 .menu-nav>ul:nth-child(1)>li:nth-child(4)>a:nth-child(1)>svg:nth-child(2)>circle:nth-child(2) {
     transition: ease-in 12s;
     fill: white;
+}
+
+.fp-viewing-slidePage-0 #menu{
+    display: none;
+}
+.fp-viewing-slidePage-1 #menu{
+    display: none;
+}
+.fp-viewing-slidePage-3 #menu{
+    display: none;
 }
 
 .arrow {

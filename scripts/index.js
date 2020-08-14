@@ -3,12 +3,12 @@ new fullpage('#fullpage', {
     autoScrolling: true,
     scrollHorizontally: true,
     navigation: false,
-    controlArrows: false,
+    controlArrows: true,
     sectionsColor: [''],
     lockAnchors: false,
     anchors: ['firstPage', 'secondPage', 'thirdPage', 'slidePage','fourthPage'],
     fitToSection: false,
-    slidesNavigation: true
+    slidesNavigation: false
 });
 
 //methods
