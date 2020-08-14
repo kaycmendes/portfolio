@@ -21,7 +21,6 @@
   <title>Kayc's Portfolio </title>
   <link rel="icon" href="images/kayc.png">
   <link rel="stylesheet" href="node_modules/fullpage.js/dist/fullpage.css">
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles/style.css">
 
 </head>
@@ -31,7 +30,12 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2W6K2K" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div class="wrapper" id="loading">
+
+  <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+  </div>
+  
+  <div class="wrapper">
     <div class="inner-wrapper">
       <header id="header">
         <div class="inner-header">
@@ -126,8 +130,6 @@
           </div>
         </div>
       </div>
-
-
     </div>
 
     <div class="container">
@@ -256,13 +258,14 @@
 
             <div class="project bump-up-element">
               <div class="project-image">
-                <a href="bloc-responsive.html"><img src="/images/todotab.png" alt="A screenshot of a mobile-friendly Bloc"></a>
+                <a href="bloc-responsive.html"><img src="/images/todotab.png"
+                    alt="A screenshot of a mobile-friendly Bloc"></a>
               </div>
               <div class="project-description">
-                <h2 class="sans-thicc">Mobile-Friendly Bloc</h2>
-                <h5 class="monospace">2016</h5>
-                <p>Improving readability on mobile devices.</p>
-                <p><a class="project-text-link" href="bloc-responsive.html">Read the case study →</a></p>
+                <h2 class="sans-thicc">todoTab</h2>
+                <h5 class="monospace">[ReactJS, CSS, HTML, JavaScript]</h5>
+                <p> A to-do list with dynamic wallpaper based on current time browse extension.</p>
+                <p><a class="project-text-link" href="https://todotab.netlify.app/" target="_blank">Try it live→</a></p>
               </div>
             </div>
 
@@ -300,7 +303,19 @@
           </div>
         </div>
       </div>
-      <script src="node_modules/fullpage.js/dist/fullpage.js"></script>
+
+
+
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script>
+        $(window).on("load", function () {
+          $(".loader-wrapper").fadeOut("slow")
+        });
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.extensions.min.js"
+        integrity="sha512-pci5WG2+7QnpsinWWpGUd3RgI61fU1bWlQQQegC2mVqwOQC/+Xp0ROGO0AYB6dvoLBYRxwm+t+DWOVRkxmlcdQ=="
+        crossorigin="anonymous"></script>
       <script src="scripts/particles.js"></script>
       <script src="scripts/app.js"></script>
       <script src="scripts/index.js"></script>
