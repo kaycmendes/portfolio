@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap');
 * {
   box-sizing: border-box;
   font-family: 'Avenir Next', 'Helvetica', sans-serif;
@@ -313,7 +313,7 @@ h1 {
 
 #typing,
 #typing-2 {
-  color: #edededbd;
+  color: #f8f4f4e6;
   text-shadow: 4px 3px 0px #9c50ac;
 }
 
@@ -412,6 +412,59 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: #8f7fff 0.9em 0.9em
+}
+
+.projects-wrapper {
+  top: 4rem;
+  position: relative;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button:hover::after {
+  transform: translate(0, 0);
+}
+
+.button::after {
+  position: absolute;
+  content: attr(data-content);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  color: #40bc3b;
+  font-family: 'Changa', sans-serif;
+  /* border: solid 2px #48185a; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-.3rem, -.3rem);
+  transition: transform .2s cubic-bezier(.34, 1.56, .64, 1);
+  border-radius: 10px;
+  color: #21a34e;
+}
+
+::after, ::before {
+  box-sizing: inherit;
+}
+
+.button {
+  display: inline-block;
+  position: relative;
+  padding: .5rem 1.25rem;
+  background-color: #fff;
+  color: #fff;
+  font-family: Mosk, sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: .02em;
+  font-size: 2.5vw;
+  border-radius: 11px;
 }
 
 /* pages heights */
@@ -771,6 +824,8 @@ button {
     display: none;
   }
 
+
+
   .first-page {
     background-color: rgb(107, 183, 122);
     background-repeat: inherit;
@@ -785,7 +840,7 @@ button {
   .greeting {
     height: 85%;
     position: absolute;
-    font-size: 2.8vw;
+    font-size: 6.8vw;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -849,8 +904,6 @@ button {
     letter-spacing: 0em;
   }
 
-
-
   #parent {
     font-size: 1.2em;
     padding: 0em;
@@ -897,7 +950,7 @@ button {
     width: auto;
     padding: 10em 13em 6em 15em;
     margin-left: auto;
-    ∏ height: 11rem;
+    height: 11rem;
     overflow: auto;
   }
 
