@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap');
+
 * {
   box-sizing: border-box;
   font-family: 'Avenir Next', 'Helvetica', sans-serif;
@@ -415,7 +416,7 @@ h1 {
 }
 
 .projects-wrapper {
-  top: 4rem;
+  top: 1.5em;
   position: relative;
 }
 
@@ -444,7 +445,7 @@ h1 {
   align-items: center;
   justify-content: center;
   transform: translate(-.3rem, -.3rem);
-  transition: transform .2s cubic-bezier(.34, 1.56, .64, 1);
+  transition: transform .2s cubic-bezier(0.22, 1.04, 0.62, 0.87);
   border-radius: 10px;
   color: #21a34e;
 }
@@ -823,8 +824,6 @@ button {
   #menu {
     display: none;
   }
-
-
 
   .first-page {
     background-color: rgb(107, 183, 122);
