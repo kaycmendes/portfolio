@@ -821,6 +821,11 @@ button {
     list-style: none;
   }
 
+  
+  .projects-wrapper{
+    display: none;
+  }
+  
   #menu {
     display: none;
   }
