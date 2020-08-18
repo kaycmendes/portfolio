@@ -860,6 +860,10 @@ button {
     display: none;
   }
 
+  .darkmode{
+    top: 0.8em;
+  }
+
   #menu {
     display: none;
   }
