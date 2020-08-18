@@ -76,8 +76,8 @@
 .loader-wrapper {
   width: 100%;
   height: 100%;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   position: absolute;
   z-index: 999;
   left: 0;
@@ -95,6 +95,32 @@
   width: 30px;
   height: 30px;
 }
+
+
+.darkmode {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  top: 1.7em;
+  background: #000000cf;
+  border-radius: 360px;
+  right: 4.2em;
+}
+
+.darkmode svg {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 0;
+}
+
+
+
+
+
+
+
+
 
 /* remove auto margin  */
 .fp-viewing-firstPage,
@@ -450,12 +476,13 @@ h1 {
   align-items: center;
   justify-content: center;
   transform: translate(-.3rem, -.3rem);
-  transition: transform .2s cubic-bezier(.65,.05,.36,1);
+  transition: transform .2s cubic-bezier(.65, .05, .36, 1);
   border-radius: 10px;
   color: #21a34e;
 }
 
-::after, ::before {
+::after,
+::before {
   box-sizing: inherit;
 }
 
@@ -626,7 +653,9 @@ h1 {
   font-family: 'Zilla Slab Highlight', cursive;
 }
 
-.atom, .code, .git-merge {
+.atom,
+.code,
+.git-merge {
   position: initial;
   width: auto;
   height: 4em;
@@ -826,11 +855,11 @@ button {
     list-style: none;
   }
 
-  
-  .projects-wrapper{
+
+  .projects-wrapper {
     display: none;
   }
-  
+
   #menu {
     display: none;
   }
