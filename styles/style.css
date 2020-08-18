@@ -450,7 +450,7 @@ h1 {
   align-items: center;
   justify-content: center;
   transform: translate(-.3rem, -.3rem);
-  transition: transform .2s cubic-bezier(0.22, 1.04, 0.62, 0.87);
+  transition: transform .2s cubic-bezier(.65,.05,.36,1);
   border-radius: 10px;
   color: #21a34e;
 }
