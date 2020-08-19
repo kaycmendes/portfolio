@@ -110,6 +110,7 @@
 .darkmode svg {
   position: absolute;
   width: 32px;
+  cursor: pointer;
   height: 32px;
   left: 0;
 }
