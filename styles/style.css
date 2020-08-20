@@ -857,6 +857,10 @@ button {
   }
 
 
+  .darkmode .fp-controlArrow{
+    border-color:transparent rgb(36, 133, 181) transparent transparent;
+  }
+
   .projects-wrapper {
     display: none;
   }
