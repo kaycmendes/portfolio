@@ -4,6 +4,7 @@ function toggleDarkMode(newState) {
         document.querySelector('.on').style.display = "block"
         document.querySelector('.button').style.backgroundColor="rgb(125, 64, 138)";
         document.querySelector('.gh').style.filter="invert(1)"
+
     }
     
     if (newState === 'off') {
