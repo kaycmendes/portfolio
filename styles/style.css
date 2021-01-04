@@ -830,15 +830,7 @@ button {
   fill: white;
 }
 
-.fp-viewing-slidePage-0 #menu {
-  display: none;
-}
-
-.fp-viewing-slidePage-1 #menu {
-  display: none;
-}
-
-.fp-viewing-slidePage-3 #menu {
+.fp-viewing-slidePage-0 #menu,.fp-viewing-slidePage-1 #menu,.fp-viewing-slidePage-2 #menu,.fp-viewing-slidePage-3 #menu,.fp-viewing-slidePage-4 #menu {
   display: none;
 }
 
@@ -998,7 +990,7 @@ button {
     padding: 10em 13em 6em 15em;
     margin-left: auto;
     height: 11rem;
-    overflow: auto;
+    overflow: hidden;
   }
 
   .third-page {
